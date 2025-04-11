@@ -11,3 +11,5 @@
 .wrangler
 .dev.vars*
 
+# we use bun but not bun.lock
+bun.lock
