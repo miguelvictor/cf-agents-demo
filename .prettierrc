@@ -1,0 +1,15 @@
+{
+  "semi": false,
+  "printWidth": 120,
+  "importOrder": [
+    "^(node:|react|@remix|@?react-router|vite|effect)",
+    "<THIRD_PARTY_MODULES>",
+    "^~/",
+    "^\\.(\\.)?/"
+  ],
+  "importOrderSeparation": true,
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
+}
